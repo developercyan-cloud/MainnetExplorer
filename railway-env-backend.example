@@ -1,0 +1,12 @@
+# Example values only. Add DATABASE_URL, Redis configuration and secrets in Railway Variables.
+ETHEREUM_JSONRPC_VARIANT=anvil
+ETHEREUM_JSONRPC_HTTP_URL=https://mainnetproetech-production.up.railway.app/rpc
+CHAIN_ID=1
+NETWORK=MainNet Lab Testnet
+SUBNETWORK=ProEshop Anvil Fork
+COIN=ETH
+API_V2_ENABLED=true
+INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER=true
+INDEXER_DISABLE_PENDING_TRANSACTIONS_FETCHER=true
+# DATABASE_URL=postgresql://... (set in Railway, do not commit)
+# SECRET_KEY_BASE=... (generate and set in Railway)

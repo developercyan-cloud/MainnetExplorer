@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Chain ID (read-only)",
+    "method": "eth_chainId",
+    "params": []
+  },
+  {
+    "name": "Latest block (read-only)",
+    "method": "eth_blockNumber",
+    "params": []
+  },
+  {
+    "name": "Anvil node info (optional read-only capability check)",
+    "method": "anvil_nodeInfo",
+    "params": []
+  }
+]
